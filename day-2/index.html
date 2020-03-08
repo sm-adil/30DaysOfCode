@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Radius Previewer</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="body__container">
+        <h1>Border Radius Previewer</h1>
+        <div id="border__radius__container">
+            <h2>Parhaps Consider</h2>
+            <h1>ALWAYS</h1>
+            <h2>Washing Your</h2>
+            <h1>DAMN HANDS</h1>
+        </div>
+        <form id="border__radius__input">
+            <input type="number" name="top-left" placeholder="Top Left" />
+            <input type="number" name="top-right" placeholder="Top Right" />
+            <input type="number" name="bottom-right" placeholder="Bottom Right" />
+            <input type="number" name="bottom-left" placeholder="Bottom Left" />
+        </form>
+
+        <div class="border__radius__result">
+            <code>border-radius: <span id="border__radius"></span>;</code>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

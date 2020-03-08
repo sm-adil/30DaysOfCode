@@ -16,3 +16,20 @@ Built a Binary 2 Decimal converter
 ### What I should've also done (Con's)
 
 - I should've added regex validation for input feild reather than `alert`ing a message when keycode is not `0 or 1`
+
+
+## Day 2: Border Radius Previewer
+
+Built a Border Radius Previewer
+
+![Border Radius Previewer](./day-2/Border-Radius-Previewer.gif)
+
+### What I learned so far (Pro's)
+
+- I learned `getComputedStyle()` methos and how it returns an object containing the values of all CSS properties of an element, after applying active stylesheets and resolving any basic computation those values may contain.
+- In above project I used `getComputedStyle()` to get current styling properties of `border-radius` which I was able to target through `getPropertyValue()` method
+
+### What I should've also done (Con's)
+
+- Maybe I should've used functions to change border styling instead hard coading values 😅
+- Also I should've added ability to copy the border radius property on click
