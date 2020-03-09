@@ -33,3 +33,18 @@ Built a Border Radius Previewer
 
 - Maybe I should've used functions to change border styling instead hard coading values 😅
 - Also I should've added ability to copy the border radius property on click
+
+
+## Day 3: Calculator
+
+Today I built a calculator (I was barely able 😅)
+
+![Calculator](./day-3/Calculator.gif)
+
+### What I learned so far (Pro's)
+
+- I learned about `eval()` method evaluates JavaScript code represented as a string
+
+### What I should've also done (Con's)
+
+- I initially started out thinking of implementing switch cases for each operation, but eventually I got lazy and use `eval()` function to return the calculated result
