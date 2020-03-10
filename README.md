@@ -48,3 +48,17 @@ Today I built a calculator (I was barely able 😅)
 ### What I should've also done (Con's)
 
 - I initially started out thinking of implementing switch cases for each operation, but eventually I got lazy and use `eval()` function to return the calculated result
+
+## Day 4: GitHub Profiler
+
+Built a GitHub Profile loader, used GitHub users API 😃
+
+![GitHub Profiler](./day-4/GitHub-Profiler.gif)
+
+### What I learned so far (Pro's)
+
+- I learned not to be lazy 😅, learned about GitHub Users API
+
+### What I should've also done (Con's)
+
+- Should've added better error handling opertaion. Better way to handle DOM manipulation
