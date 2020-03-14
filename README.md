@@ -62,3 +62,19 @@ Built a GitHub Profile loader, used GitHub users API 😃
 ### What I should've also done (Con's)
 
 - Should've added better error handling opertaion. Better way to handle DOM manipulation
+
+## Day 5: Markdown Previewer
+
+Built a Markdown Previewer
+
+![Markdown Previewer](./day-5/Markdown-Previewer.png)
+
+### What I learned so far (Pro's)
+
+- Learned about `marked` package which I used to convert raw text into markdown syntax
+
+### What I should've also done (Con's)
+
+- I took a break of two days, just wasn't feeling like coding anything at all
+- Should've been more focussed and determinant
+- Also I felt like I should've built my own Markdown parser
