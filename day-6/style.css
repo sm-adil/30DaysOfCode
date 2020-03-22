@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+    font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
+}
+
+.body__container {
+    width: 80%;
+    margin: auto;
+    padding: 40px 0px;
+}
+
+.element__container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.header__container {
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid hsl(217, 16%, 45%);
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.score__container {
+    padding: 10px 25px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.score__text {
+    text-transform: uppercase;
+    color: hsl(229, 64%, 46%);
+    margin: 0;
+}
+
+.score__count {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0;
+    color: hsl(229, 25%, 31%);
+}
+
+.hand__container {
+    width: 500px;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    background-image: url('./images/bg-triangle.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hand__container img {
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    background: #fff;
+    padding: 35px;
+    margin: 30px 30px 10px;
+    cursor: pointer;
+}
+
+.hand__container img:nth-child(1) {
+    border: 20px solid hsl(230, 89%, 62%);
+}
+
+.hand__container img:nth-child(2) {
+    border: 20px solid hsl(39, 89%, 49%);
+}
+
+.hand__container img:nth-child(3) {
+    border: 20px solid hsl(349, 71%, 52%);
+}
+
+.chosen__container {
+    display: none;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.picked__container {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: flex-end;
+}
+
+.picked__container p {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.picked__container img {
+    width: 240px;
+    height: 240px;
+    border-radius: 100%;
+    background: #fff;
+    padding: 35px;
+    margin: 30px 30px 10px;
+    cursor: pointer;
+    border: 20px solid hsl(261, 73%, 60%);
+}
+
+.game__result {
+    text-align: center;
+}
+
+.game__result h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.game__result button {
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: 700;
+    background: #fff;
+    color: hsl(229, 25%, 31%);
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 615px) {
+    .hand__container {
+        width: 300px;
+        background: transparent;
+    }
+
+    .hand__container img {
+        width: 120px;
+        height: 120px;
+        padding: 15px;
+        margin: 12px 12px 8px;
+    }
+
+    .hand__container img:nth-child(1) {
+        border: 12px solid hsl(230, 89%, 62%);
+    }
+
+    .hand__container img:nth-child(2) {
+        border: 12px solid hsl(39, 89%, 49%);
+    }
+
+    .hand__container img:nth-child(3) {
+        border: 12px solid hsl(349, 71%, 52%);
+    }
+
+    .header__container img {
+        width: 70%;
+    }
+
+    .score__container {
+        padding: 10px 15px;
+    }
+
+    .score__count {
+        font-size: 28px;
+    }
+
+    .picked__container img {
+        width: 120px;
+        height: 120px;
+        padding: 15px;
+        margin: 0;
+    }
+}

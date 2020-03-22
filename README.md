@@ -78,3 +78,20 @@ Built a Markdown Previewer
 - I took a break of two days, just wasn't feeling like coding anything at all
 - Should've been more focussed and determinant
 - Also I felt like I should've built my own Markdown parser
+
+
+## Day 6: Rock Paper Scissors Game
+
+Built a Rock Paper Scissors Game. Used design resources from @frontendmentorio challenge
+
+![Rock Paper Scissors](./day-6/Rock-Paper-Scissors.gif)
+
+### What I learned so far (Pro's)
+
+- Learned about rules of Rock Paper Scissors Game, there wasn't much in tech I could learn programmatically
+
+### What I should've also done (Con's)
+
+- Maybe simplefied how we toggle UI elements
+- Store the score in `localStorage` and make it persistent
+- Add animation to DOM manipulation
