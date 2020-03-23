@@ -95,3 +95,18 @@ Built a Rock Paper Scissors Game. Used design resources from @frontendmentorio c
 - Maybe simplefied how we toggle UI elements
 - Store the score in `localStorage` and make it persistent
 - Add animation to DOM manipulation
+
+## Day 7: Color Scheme Toggler
+
+Built a Color Scheme Toggler
+
+![Color Scheme Toggler](./day-7/Color-Scheme-Toggler.gif)
+
+### What I learned so far (Pro's)
+
+- Learned about color schemes, how we can use it in our applications etc
+
+### What I should've also done (Con's)
+
+- Should've used css variables to defines primary/secondary colors
+- Store the toggles mode in `localStorage` to make it persistent and render it whenever we load the page

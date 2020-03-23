@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all 0.4s;
+}
+
+.body__container {
+    width: 80%;
+    margin: auto;
+    padding: 40px 0px;
+    text-align: center;
+}
+
+.pricing__container {
+    margin-top: 40px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.pricing__card {
+    background: #edf2f7;
+    border-radius: 5px;
+    padding: 50px 35px 35px;
+    box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+}
+
+.pricing__card h1 {
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.pricing__card span {
+    font-size: 35px;
+}
+
+.pricing__card p {
+    font-size: 18px;
+}
+
+.pricing__button {
+    margin-top: 50px;
+    cursor: pointer;
+    color: #3f9795;
+    width: 100%;
+    padding: 14px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    background: #fff;
+    border: 1px solid #3f9795;
+}
+
+.pricing__card:nth-child(2) {
+    color: #fff;
+    background: #3f9795;
+}
+
+.pricing__card:nth-child(2) button {
+    color: #fff;
+    background: #3f9795;
+    border: 1px solid #fff;
+}
+
+.pricing__card:nth-child(1) {
+    max-height: 420px;
+    padding: 24px 35px;
+}
+
+.pricing__card:nth-child(1) button {
+    margin-top: 35px;
+}
+
+.pricing__card:nth-child(3) {
+    max-height: 420px;
+    padding: 24px 35px;
+}
+
+.pricing__card:nth-child(3) button {
+    margin-top: 35px;
+}
+
+.toggler {
+    cursor: pointer;
+    width: 30px;
+    border-radius: 100%;
+    padding: 4px;
+    background: #e9eaeb;
+}
+
+.body__dark {
+    color: #fff;
+    background: #191f2b;
+}
+
+.card__dark {
+    color: #e9eaeb;
+    background: #2b313c;
+}
+
+.toggle__dark {
+    background: #3f9795;
+}
