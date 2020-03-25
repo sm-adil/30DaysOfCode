@@ -110,3 +110,17 @@ Built a Color Scheme Toggler
 
 - Should've used css variables to defines primary/secondary colors
 - Store the toggles mode in `localStorage` to make it persistent and render it whenever we load the page
+
+## Day 8: Random Meal Generator
+
+Built a Random Meal Generator
+
+![Random Meal Generator](./day-8/Random-Meal-Generator.png)
+
+### What I learned so far (Pro's)
+
+- Learned about `themealdb` API, and how we can use this API to build apps for food related stuff
+
+### What I should've also done (Con's)
+
+- Should've added css transition for smooth animation
