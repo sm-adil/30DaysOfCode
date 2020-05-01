@@ -124,3 +124,18 @@ Built a Random Meal Generator
 ### What I should've also done (Con's)
 
 - Should've added css transition for smooth animation
+
+
+## Day 9: Random Programming Quote Generator
+
+Built a Random Programming Quote Generator
+
+![Random Programming Quote Generator](./day-9/Programming-Quotes.gif)
+
+### What I learned so far (Pro's)
+
+- Learned about [Programming Quotes API](https://programming-quotes-api.herokuapp.com/) which provides tons of options to load programming related quotes.
+
+### What I should've also done (Con's)
+
+- Make more accessble UI (voiceOver)
