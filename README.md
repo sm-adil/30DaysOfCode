@@ -139,3 +139,18 @@ Built a Random Programming Quote Generator
 ### What I should've also done (Con's)
 
 - Make more accessble UI (voiceOver)
+
+
+## Day 10: Simple FAQ accordion
+
+Built a simple FAQ accordion
+
+![Random Programming Quote Generator](./day-10/Accordion.gif)
+
+### What I learned so far (Pros)
+
+- Not much actually, this project is me trying to do a come back from a long gap
+
+### What I should've also done (Cons)
+
+- I should be more consistent
