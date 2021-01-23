@@ -154,3 +154,18 @@ Built a simple FAQ accordion
 ### What I should've also done (Cons)
 
 - I should be more consistent
+
+
+## Day 10: Easy Pagination
+
+Built a simple pagination component
+
+![Easy Pagination](./day-11/EasyPagination.gif)
+
+### What I learned so far (Pros)
+
+- Learnt a bit about array manipulation
+
+### What I should've also done (Cons)
+
+- Built a complex pagination UI with multipage support

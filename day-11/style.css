@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #5f6d7b;
+  background-color: #d5ddde;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.pagination__container {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 100px auto;
+}
+
+.pagination {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+button {
+  cursor: pointer;
+  margin-left: 10px;
+  border-radius: 10px;
+  background: #f0f2f4;
+  transition: all 0.2s;
+}
+
+button:hover {
+  background: #e2e3e4;
+}
+
+button:disabled:hover {
+  background: #e7eaec;
+}
