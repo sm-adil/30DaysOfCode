@@ -156,7 +156,7 @@ Built a simple FAQ accordion
 - I should be more consistent
 
 
-## Day 10: Easy Pagination
+## Day 11: Easy Pagination
 
 Built a simple pagination component
 
@@ -169,3 +169,19 @@ Built a simple pagination component
 ### What I should've also done (Cons)
 
 - Built a complex pagination UI with multipage support
+
+
+## Day 12: Easy Pagination
+
+Built a random cat facts page
+
+![Random Cat Facts](./day-12/RandomCatFacts.gif)
+
+### What I learned so far (Pros)
+
+- Learnt about [cat-facts](https://alexwohlbruck.github.io/cat-facts/]) endpoint which returns a random fact about cats
+- Re-used the same functional code in 2 differnt event handlers
+
+### What I should've also done (Cons)
+
+- NA
