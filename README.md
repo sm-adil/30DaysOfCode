@@ -171,7 +171,7 @@ Built a simple pagination component
 - Built a complex pagination UI with multipage support
 
 
-## Day 12: Easy Pagination
+## Day 12: Random Cat Facts
 
 Built a random cat facts page
 
@@ -185,3 +185,18 @@ Built a random cat facts page
 ### What I should've also done (Cons)
 
 - NA
+
+
+## Day 13: Table of contents
+
+Built a table of content generator from the html markup present in the page
+
+![Table of contents](./day-13/TableofContents.gif)
+
+### What I learned so far (Pros)
+
+- Learned about how we can add/append multiple child node to an element in DOM using `appendChild` method
+
+### What I should've also done (Cons)
+
+- Auto highlight table of content links whenever user scroll down the page showcasing the progress of the page
