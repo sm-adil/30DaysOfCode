@@ -200,3 +200,20 @@ Built a table of content generator from the html markup present in the page
 ### What I should've also done (Cons)
 
 - Auto highlight table of content links whenever user scroll down the page showcasing the progress of the page
+
+## Day 14: Tooltip element
+
+Built a Tooltip element
+
+![Tooltip Element](./day-14/TooltipElement.gif)
+
+### What I learned so far (Pros)
+
+- Used `mouseover` & `mouseleave` event listeners
+- Learned about `remove()` built-in method to remove any child node from the dom tree
+- Started using querySelector to select element with different attributes
+
+### What I should've also done (Cons)
+
+- Should've applied the positioning of the tooltip automatically using the elements placement in the page
+- Added some transition to the tooltop
