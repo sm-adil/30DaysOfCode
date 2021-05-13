@@ -217,3 +217,17 @@ Built a Tooltip element
 
 - Should've applied the positioning of the tooltip automatically using the elements placement in the page
 - Added some transition to the tooltop
+
+## Day 15: Search Box
+
+Built a search box component
+
+![Search Box](./day-15/SearchBox.gif)
+
+### What I learned so far (Pros)
+
+- Learned about `Element.replaceChildren` method, which replaces the existing children of a Node with a specified new set of children.
+
+### What I should've also done (Cons)
+
+- NA
