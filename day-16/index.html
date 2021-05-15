@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Feedback form</title>
+  </head>
+  <body>
+    <main>
+      <form id="feedback__form">
+        <h1>Send us your feedback</h1>
+        <p>How was your experience?</p>
+        <div class="radio__controller">
+          <input type="radio" value="happy" name="feedback" id="happy" />
+          <label for="happy">🤩</label>
+
+          <input type="radio" value="neutral" name="feedback" id="neutral" />
+          <label for="neutral">🙂</label>
+
+          <input type="radio" value="unhappy" name="feedback" id="unhappy" />
+          <label for="unhappy">😢</label>
+        </div>
+        <button type="submit">Send</button>
+      </form>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>

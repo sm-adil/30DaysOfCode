@@ -17,7 +17,6 @@ Built a Binary 2 Decimal converter
 
 - I should've added regex validation for the input field rather than `alert`ing a message when keycode is not `0 or 1`
 
-
 ## Day 2: Border Radius Previewer
 
 Built a Border Radius Previewer
@@ -33,7 +32,6 @@ Built a Border Radius Previewer
 
 - Maybe I should've used functions to change border styling instead hard coding values 😅
 - Also I should've added the ability to copy the border-radius property on click
-
 
 ## Day 3: Calculator
 
@@ -78,7 +76,6 @@ Built a Markdown Previewer
 - I took a break of two days, just wasn't feeling like coding anything at all
 - Should've been more focussed and determinant
 - Also I felt like I should've built my own Markdown parser
-
 
 ## Day 6: Rock Paper Scissors Game
 
@@ -125,7 +122,6 @@ Built a Random Meal Generator
 
 - Should've added CSS transition for smooth animation
 
-
 ## Day 9: Random Programming Quote Generator
 
 Built a Random Programming Quote Generator
@@ -139,7 +135,6 @@ Built a Random Programming Quote Generator
 ### What I should've also done (Con's)
 
 - Make more accessible UI (voiceOver)
-
 
 ## Day 10: Simple FAQ accordion
 
@@ -155,7 +150,6 @@ Built a simple FAQ accordion
 
 - I should be more consistent
 
-
 ## Day 11: Easy Pagination
 
 Built a simple pagination component
@@ -169,7 +163,6 @@ Built a simple pagination component
 ### What I should've also done (Cons)
 
 - Built a complex pagination UI with multipage support
-
 
 ## Day 12: Random Cat Facts
 
@@ -185,7 +178,6 @@ Built a random cat facts page
 ### What I should've also done (Cons)
 
 - NA
-
 
 ## Day 13: Table of contents
 
@@ -231,3 +223,18 @@ Built a search box component
 ### What I should've also done (Cons)
 
 - NA
+
+## Day 16: Feedback form
+
+Built a feedbacl form component
+
+![Feeback form](./day-16/FeedbackForm.gif)
+
+### What I learned so far (Pros)
+
+- Learned about querySelector option to select input fields with same name attribute
+- Learned about how to select immediate sibling of element and apply style to it using `+` adjacent selector
+
+### What I should've also done (Cons)
+
+- Use some endpoint to post the feedback data asynchronously
