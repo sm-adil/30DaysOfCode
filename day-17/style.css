@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #f2f0ff;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+main {
+  margin: auto;
+  display: flex;
+  max-width: 35rem;
+  min-height: 100vh;
+  padding: 0 1rem;
+  flex-direction: column;
+  justify-content: center;
+}
+
+p {
+  margin-top: 0;
+}
+
+#cookie__container {
+  text-align: center;
+  padding: 2rem;
+  position: fixed;
+  bottom: -30rem;
+  z-index: 25;
+  left: 1rem;
+  right: 1rem;
+  max-width: 22rem;
+  border-radius: 1rem;
+  background-color: #ffffff;
+  transition: bottom 0.3s ease-in-out;
+  box-shadow: 0 0.5rem 1rem 0 rgb(132 128 177 / 28%);
+}
+
+#cookie__container span {
+  font-size: 5rem;
+}
+
+#cookie__close__button {
+  position: absolute;
+  right: 1.25rem;
+  top: 1.25rem;
+  padding: 0.55rem 0.75rem;
+  border-radius: 50%;
+  background: #f5f5fc;
+  cursor: pointer;
+}
+
+#cookie__container h2 {
+  margin-top: 0;
+}
+
+#cookie__container p {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
