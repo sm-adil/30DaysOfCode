@@ -226,7 +226,7 @@ Built a search box component
 
 ## Day 16: Feedback form
 
-Built a feedbacl form component
+Built a feedback form component
 
 ![Feeback form](./day-16/FeedbackForm.gif)
 
@@ -238,3 +238,17 @@ Built a feedbacl form component
 ### What I should've also done (Cons)
 
 - Use some endpoint to post the feedback data asynchronously
+
+## Day 17: Cookie popup
+
+Built a cookie popup component
+
+![Cookie popup](./day-17/CookiePopup.gif)
+
+### What I learned so far (Pros)
+
+- Learned about `document.cookie`, how we can use it in any JS projects
+
+### What I should've also done (Cons)
+
+- Made some static changes when a cookie is stored
