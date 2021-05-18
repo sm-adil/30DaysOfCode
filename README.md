@@ -252,3 +252,17 @@ Built a cookie popup component
 ### What I should've also done (Cons)
 
 - Made some static changes when a cookie is stored
+
+## Day 18: Modal
+
+Built a modal component
+
+![Modal](./day-18/Modal.gif)
+
+### What I learned so far (Pros)
+
+- Learned about `currentTarget` of click event and how we can use it to check of which element is being clicked at the moment
+
+### What I should've also done (Cons)
+
+- Add some animation to the modal
