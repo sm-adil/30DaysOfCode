@@ -266,3 +266,17 @@ Built a modal component
 ### What I should've also done (Cons)
 
 - Add some animation to the modal
+
+## Day 19: URL Shortner
+
+Built a URL shortner
+
+![URL Shortner](./day-19/URLShortner.gif)
+
+### What I learned so far (Pros)
+
+- Learned about `*:hover:enabled` and `*:hover:dinabled` CSS pseudo-selectors to add hover state style when element is disabled on enabled
+
+### What I should've also done (Cons)
+
+- NA
