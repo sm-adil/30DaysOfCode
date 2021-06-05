@@ -280,3 +280,19 @@ Built a URL shortner
 ### What I should've also done (Cons)
 
 - NA
+
+## Day 20: Menu component
+
+Built a Menu component
+
+![Menu component](./day-20/MenuComponent.gif)
+
+### What I learned so far (Pros)
+
+- Nothing new! ☹️
+
+### What I should've also done (Cons)
+
+- Component should've been dynamic
+- Should've used `insertAdjacentElement` method to add menu node to DOM
+- Should've added option to close menu when focus is moved away from the button
