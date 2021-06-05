@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+main {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  padding: 2rem 1rem;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+h3 {
+  max-width: 35rem;
+}
+
+#menu {
+  left: 1px;
+  z-index: 1;
+  padding: 0;
+  background: #fff;
+  min-width: 12rem;
+  max-width: 12rem;
+  list-style: none;
+  text-align: left;
+  position: absolute;
+  border-radius: 0.5rem;
+  border: 0.01rem solid #e2e8f0;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+#menu li {
+  font-weight: normal;
+  transition: all 0.2s;
+  padding: 0.35rem 0.5rem;
+}
+
+#menu li:hover,
+#menu li:focus {
+  background: #f7fafc;
+}
+
+#menu__button {
+  border: none;
+  cursor: pointer;
+  color: #2d3748;
+  font-weight: 600;
+  font-size: 0.95rem;
+  font-family: inherit;
+  border-radius: 0.5rem;
+  background: #edf2f7;
+  padding: 0.75rem 1.25rem;
+  transition: all 0.2s;
+  position: relative;
+}
+
+#menu__button:hover,
+#menu__button:focus {
+  background: #e2e8f0;
+}
