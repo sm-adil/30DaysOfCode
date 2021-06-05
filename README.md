@@ -6,7 +6,7 @@ Series of projects which I plan on building for the next 30 days without fail �
 
 Built a Binary 2 Decimal converter
 
-![Bin2Dec](./day-1/Bin2Dec.gif)
+![Bin2Dec](./day-01/Bin2Dec.gif)
 
 ### What I learned so far (Pros)
 
@@ -21,7 +21,7 @@ Built a Binary 2 Decimal converter
 
 Built a Border Radius Previewer
 
-![Border Radius Previewer](./day-2/Border-Radius-Previewer.gif)
+![Border Radius Previewer](./day-02/Border-Radius-Previewer.gif)
 
 ### What I learned so far (Pros)
 
@@ -37,7 +37,7 @@ Built a Border Radius Previewer
 
 Today I built a calculator (I was barely able 😅)
 
-![Calculator](./day-3/Calculator.gif)
+![Calculator](./day-03/Calculator.gif)
 
 ### What I learned so far (Pros)
 
@@ -51,7 +51,7 @@ Today I built a calculator (I was barely able 😅)
 
 Built a GitHub Profile loader, used GitHub users API 😃
 
-![GitHub Profiler](./day-4/GitHub-Profiler.gif)
+![GitHub Profiler](./day-04/GitHub-Profiler.gif)
 
 ### What I learned so far (Pros)
 
@@ -65,7 +65,7 @@ Built a GitHub Profile loader, used GitHub users API 😃
 
 Built a Markdown Previewer
 
-![Markdown Previewer](./day-5/Markdown-Previewer.png)
+![Markdown Previewer](./day-05/Markdown-Previewer.png)
 
 ### What I learned so far (Pros)
 
@@ -81,7 +81,7 @@ Built a Markdown Previewer
 
 Built a Rock Paper Scissors Game. Used design resources from @frontendmentorio challenge
 
-![Rock Paper Scissors](./day-6/Rock-Paper-Scissors.gif)
+![Rock Paper Scissors](./day-06/Rock-Paper-Scissors.gif)
 
 ### What I learned so far (Pros)
 
@@ -97,7 +97,7 @@ Built a Rock Paper Scissors Game. Used design resources from @frontendmentorio c
 
 Built a Color Scheme Toggler
 
-![Color Scheme Toggler](./day-7/Color-Scheme-Toggler.gif)
+![Color Scheme Toggler](./day-07/Color-Scheme-Toggler.gif)
 
 ### What I learned so far (Pros)
 
@@ -112,7 +112,7 @@ Built a Color Scheme Toggler
 
 Built a Random Meal Generator
 
-![Random Meal Generator](./day-8/Random-Meal-Generator.png)
+![Random Meal Generator](./day-08/Random-Meal-Generator.png)
 
 ### What I learned so far (Pros)
 
@@ -126,7 +126,7 @@ Built a Random Meal Generator
 
 Built a Random Programming Quote Generator
 
-![Random Programming Quote Generator](./day-9/Programming-Quotes.gif)
+![Random Programming Quote Generator](./day-09/Programming-Quotes.gif)
 
 ### What I learned so far (Pros)
 
