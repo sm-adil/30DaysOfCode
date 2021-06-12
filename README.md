@@ -296,3 +296,17 @@ Built a Menu component
 - Component should've been dynamic
 - Should've used `insertAdjacentElement` method to add menu node to DOM
 - Should've added option to close menu when focus is moved away from the button
+
+## Day 20: Menu component
+
+Built a Timeline component
+
+![Menu component](./day-21/TimelineComponent.gif)
+
+### What I learned so far (Pros)
+
+- Nothing new 🥲
+
+### What I should've also done (Cons)
+
+- Should've added transition
