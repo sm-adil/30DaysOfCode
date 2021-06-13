@@ -297,11 +297,11 @@ Built a Menu component
 - Should've used `insertAdjacentElement` method to add menu node to DOM
 - Should've added option to close menu when focus is moved away from the button
 
-## Day 20: Menu component
+## Day 21: Timeline component
 
 Built a Timeline component
 
-![Menu component](./day-21/TimelineComponent.gif)
+![Timeline component](./day-21/TimelineComponent.gif)
 
 ### What I learned so far (Pros)
 
@@ -310,3 +310,19 @@ Built a Timeline component
 ### What I should've also done (Cons)
 
 - Should've added transition
+
+## Day 22: Tabs component
+
+Built a Tabs component
+
+![Tabs component](./day-22/TabsComponent.gif)
+
+### What I learned so far (Pros)
+
+- Learned about `Element.classList.add()`, `Element.classList.remove()` and `Element.classList.toggle()` functions
+- Used `Element.classList.add` and `Element.classList.remove` to toggle active tab
+
+### What I should've also done (Cons)
+
+- Should've added transition
+- Should've tried to simplify class change using `Element.classList.toggle()` function

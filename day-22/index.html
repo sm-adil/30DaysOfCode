@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabs component</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <section id="tabs__section">
+        <div class="tabs__nav">
+          <button class="tabs__navtab tabs__navtab-active" value="about-me">
+            About me
+          </button>
+          <button class="tabs__navtab" value="blog">Blog</button>
+          <button class="tabs__navtab" value="guides">Guides</button>
+          <button class="tabs__navtab" value="projects">Projects</button>
+        </div>
+        <div class="tabs__content">
+          <div id="about-me" class="tabs__tabpanel tabs__tabpanel-active">
+            <h1>About Me 💡</h1>
+            <p>
+              I'm John Doe, I'm a developer, writer, creatorand open-sourcerer.
+              You’ve found my personal slice of the internet 😉.
+            </p>
+          </div>
+          <div id="blog" class="tabs__tabpanel">
+            <h1>Blog 📝</h1>
+            <p>
+              Posts, tutorials, snippets, musings, notes, and everything else.
+              The archive of everything I've written.
+            </p>
+          </div>
+          <div id="guides" class="tabs__tabpanel">
+            <h1>Guides 📔</h1>
+            <p>
+              The missing instruction manuals of the web. Long form articles,
+              guides, tutorials, and references about programming and design.
+            </p>
+          </div>
+          <div id="projects" class="tabs__tabpanel">
+            <h1>Projects 🗄</h1>
+            <p>
+              A few highlights of my open-source projects. View them all on
+              GitHub 🐱.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
