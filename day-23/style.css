@@ -1,0 +1,84 @@
+* {
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #ff449f;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+main {
+  padding: 1rem;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel__container {
+  width: 1024px;
+  height: 450px;
+  position: relative;
+  background: #fff5b7;
+}
+
+.carousel__button {
+  top: 46%;
+  color: #555;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  font-size: 1.75rem;
+  background: transparent;
+  transition: color 0.2s;
+}
+
+.previous {
+  left: 1rem;
+}
+
+.next {
+  right: 1rem;
+}
+
+.carousel__button:hover {
+  color: #000;
+}
+
+.carousel__holder {
+  height: inherit;
+}
+
+.carousel__slide {
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.5;
+  padding: 0 3rem;
+  height: inherit;
+  display: none;
+  text-align: center;
+  transition: all 0.2s;
+  animation: loading 0.2s ease-in-out;
+}
+
+.active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes loading {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
