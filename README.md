@@ -326,3 +326,18 @@ Built a Tabs component
 
 - Should've added transition
 - Should've tried to simplify class change using `Element.classList.toggle()` function
+
+## Day 23: Carousel component
+
+Built a Carousel component
+
+![Carousel component](./day-23/CarouselComponent.gif)
+
+### What I learned so far (Pros)
+
+- Learned about `Element.previousElementSibling`, `Element.firstElementChild`, `Element.nextElementSibling` and `Element.lastElementChild` properties
+- Used above element properties to handle change in active carousel
+
+### What I should've also done (Cons)
+
+- Should've cleaned transitions
