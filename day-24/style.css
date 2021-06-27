@@ -1,0 +1,50 @@
+* {
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #d75b2f;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+main {
+  padding: 1rem;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  width: 30rem;
+  max-width: 30rem;
+  text-align: center;
+  padding: 1rem 2rem;
+  filter: blur(3px);
+  border-radius: 0.5rem;
+  background: #688de2;
+  border: 0.2rem solid #1b1b1b;
+}
+
+input {
+  width: 13rem;
+  margin: auto;
+  display: block;
+  background: #f5f5f5;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.25rem;
+  border: 0.15rem solid #1b1b1b;
+}
+
+button {
+  cursor: pointer;
+  margin-top: 0.75rem;
+  background: #fbd449;
+  border-radius: 0.25rem;
+  padding: 0.25rem 1rem;
+  border: 0.15rem solid #1b1b1b;
+}
