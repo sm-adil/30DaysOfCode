@@ -341,3 +341,17 @@ Built a Carousel component
 ### What I should've also done (Cons)
 
 - Should've cleaned transitions
+
+## Day 24: Random Quiz
+
+Built a Random Quiz App
+
+![Random Quiz](./day-24/RandomQuiz.gif)
+
+### What I learned so far (Pros)
+
+- Tried something new! Used `filter: blur()` CSS property to showcase the data loading effect
+
+### What I should've also done (Cons)
+
+- Should've disabled the form when data is loading
