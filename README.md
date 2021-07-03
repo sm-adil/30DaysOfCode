@@ -355,3 +355,19 @@ Built a Random Quiz App
 ### What I should've also done (Cons)
 
 - Should've disabled the form when data is loading
+
+## Day 25: Emoji Picker
+
+Built a Emoji Picker with a slight pop up animation
+
+![Emoji Picker](./day-25/EmojiPicker.gif)
+
+### What I learned so far (Pros)
+
+- Tried something new 🔥
+- Used `insertAdjacentElement` method to insert emoji list to DOM
+- Used `Math.random()` to generate few unique position points in DOM for emoji drop animation
+
+### What I should've also done (Cons)
+
+- NA, I feel okay with overall result
