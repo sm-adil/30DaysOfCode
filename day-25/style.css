@@ -1,0 +1,98 @@
+* {
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background: #d3c5ff;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+main {
+  padding: 1rem;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+#emoji__picker {
+  color: #fff;
+  z-index: 1;
+  cursor: pointer;
+  height: 2.625rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  border-radius: 0.35rem;
+  padding: 0px 0.9375rem;
+  border-color: #3b35dc;
+  background-color: #3b35dc;
+}
+
+#emoji__picker:hover {
+  border-color: #5650ec;
+  background-color: #5650ec;
+}
+
+.emoji__container {
+  width: 20rem;
+  height: 7rem;
+  display: none;
+  background: #fff;
+  position: absolute;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.0975);
+}
+
+.emoji__container .emoji__holder {
+  height: 7rem;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.5rem;
+  background: #fff;
+  position: relative;
+  z-index: 2;
+  border-radius: 0.5rem;
+  justify-content: center;
+}
+
+.emoji__container .emoji__holder button {
+  padding: 0;
+  border: none;
+  margin: 0.35rem;
+  font-size: 2rem;
+  cursor: pointer;
+  background: transparent;
+}
+
+.emoji__container .emoji__pointer {
+  left: 50%;
+  bottom: -0.75rem;
+  width: 0.875rem;
+  height: 0.875rem;
+  position: absolute;
+  background: #fff;
+  transform: rotate(45deg) translate(-50%, 0);
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.0975);
+}
+
+.open {
+  display: initial;
+}
+
+.emoji {
+  position: fixed;
+  font-size: 2.5rem;
+  z-index: 4;
+  animation: drop 3s forwards;
+}
+
+@keyframes drop {
+  to {
+    top: 100%;
+  }
+}
