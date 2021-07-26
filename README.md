@@ -371,3 +371,17 @@ Built a Emoji Picker with a slight pop up animation
 ### What I should've also done (Cons)
 
 - NA, I feel okay with overall result
+
+## Day 26: Highlight Words
+
+Built a Word highlighter
+
+![Highlight Words](./day-26/HighlightWords.gif)
+
+### What I learned so far (Pros)
+
+- Used some of the `transform` css properties
+
+### What I should've also done (Cons)
+
+- Need to learn more about `transform` and `animation` properties
