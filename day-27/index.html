@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Like Heart Button</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <button id="like-heart-button">
+        <span>👍</span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          viewBox="0 0 16 16"
+        >
+          <defs>
+            <linearGradient id="hearGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" stop-color="#facc15" />
+              <stop offset="50%" stop-color="#ef4444" />
+              <stop offset="100%" stop-color="#ec4899" />
+            </linearGradient>
+            <mask id="heartMask" mask-type="alpha" maskUnits="userSpaceOnUse">
+              <path
+                fill-rule="evenodd"
+                d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"
+              />
+            </mask>
+          </defs>
+          <g mask="url(#heartMask)">
+            <rect width="16" height="16" fill="#e5e7eb" />
+            <rect
+              width="16"
+              height="16"
+              id="like-heart-fill"
+              fill="url(#hearGradient)"
+              style="transform: translateY(17px)"
+            />
+          </g>
+        </svg>
+      </button>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
