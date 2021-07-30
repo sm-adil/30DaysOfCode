@@ -385,3 +385,18 @@ Built a Word highlighter
 ### What I should've also done (Cons)
 
 - Need to learn more about `transform` and `animation` properties
+
+## Day 27: Like Heart Button
+
+Built a Like Heart Button ✨
+
+![Like Heart Button](./day-27/LikeHeartButton.gif)
+
+### What I learned so far (Pros)
+
+- Learnt a bit about `svg` and how we can use it to create interactive icons/button etc.
+- Used some of the `transform` css properties for repositioning some elements
+
+### What I should've also done (Cons)
+
+- Maybe I should've stored the like count in localStorage, I felt it wasn't required at this point in time.

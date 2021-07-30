@@ -1,0 +1,79 @@
+* {
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background: #fff;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+main {
+  padding: 1rem;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  padding: 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  background: transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+button span {
+  opacity: 0;
+  width: 100%;
+  display: block;
+  font-size: 1.35rem;
+  position: absolute;
+  transition: all 0.2s ease-in-out;
+}
+
+button svg {
+  width: 5rem;
+  height: 5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.15);
+}
+
+button:active {
+  transition: all 0.2s ease-in-out;
+  animation: grow-heart 0.2s ease-in-out;
+}
+
+button:active span {
+  animation: fade-in-out 0.5s ease-in-out;
+}
+
+@keyframes grow-heart {
+  from {
+    transform: scale(1.15);
+  }
+  to {
+    transform: scale(1.3);
+  }
+}
+
+@keyframes fade-in-out {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-60px);
+    opacity: 0;
+  }
+}
