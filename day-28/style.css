@@ -1,0 +1,58 @@
+* {
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background: #eff3fd;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+main {
+  padding: 1rem;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+button {
+  font-size: 1.35rem;
+  cursor: pointer;
+  position: relative;
+  background: transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+.drawer {
+  max-width: 450px;
+  padding: 1.5rem;
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #ffffff;
+  transform: translateX(475px);
+  transition: transform 0.2s ease-in-out;
+  box-shadow: -8px 9px 25px 0 rgb(132 128 177 / 28%);
+}
+
+.open {
+  transform: translateX(0);
+}
+
+#close-drawer {
+  float: right;
+}
+
+.drawer__content {
+  overflow: scroll;
+  margin-top: 3.5rem;
+  height: calc(100% - 54px);
+  line-height: 1.5;
+}
