@@ -400,3 +400,17 @@ Built a Like Heart Button ✨
 ### What I should've also done (Cons)
 
 - Maybe I should've stored the like count in localStorage, I felt it wasn't required at this point in time.
+
+## Day 28: Drawer Component
+
+Built a Drawer Component 📑
+
+![Drawer Component](./day-28/DrawerComponent.gif)
+
+### What I learned so far (Pros)
+
+- Used `transform: translatX()` css properties to hide/unhide drawer section
+
+### What I should've also done (Cons)
+
+- NA
