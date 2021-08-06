@@ -414,3 +414,17 @@ Built a Drawer Component 📑
 ### What I should've also done (Cons)
 
 - NA
+
+## Day 29: Toast Notification
+
+Built a Toast Notification
+
+![ToastNotification](./day-29/ToastNotification.gif)
+
+### What I learned so far (Pros)
+
+- Used `transform: translatX()` css properties to hide/unhide toast section
+
+### What I should've also done (Cons)
+
+- NA
