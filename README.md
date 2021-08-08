@@ -428,3 +428,17 @@ Built a Toast Notification
 ### What I should've also done (Cons)
 
 - NA
+
+## Day 30: Drag n Drop💥
+
+Built a Drag n Drop handler
+
+![DragnDrop](./day-30/DragnDrop.gif)
+
+### What I learned so far (Pros)
+
+- Learnt about drag events and how we can use em to build drag effects
+
+### What I should've also done (Cons)
+
+- Should've added some animations
